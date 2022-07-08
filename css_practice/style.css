@@ -1,0 +1,46 @@
+body {
+    padding-top: 2.5rem
+}
+
+img{
+    /* for image sizing you do not want to modify both the height && width. you should only modify one or the other */
+    width: 16rem;
+}
+
+nav * {
+    color:
+}
+
+div#container {
+    padding: 0 28rem;
+    background-image: url("./images/breakfast.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 40vw;
+}
+
+#container section, 
+footer {
+    color: #ffffff;
+}
+
+
+
+/* nav || #topnav || .navigation */
+#topnav {
+    background-color: lightgray;
+    height: 3rem;
+    position: fixed;
+    width: 94vw;
+    padding: 25px 40px 0px;
+    top: 0;
+    left: 0;
+}
+
+
+
+.navigation span {
+    margin: 0 10.9rem;
+}
+
